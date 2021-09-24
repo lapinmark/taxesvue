@@ -32,10 +32,10 @@
           <input
             class="modal__checkbox"
             type="checkbox"
-            id="index"
+            :id="index"
             value="deduction"
           />
-          <label for="index">{{ deduction }} в {{ index + 1 }} год</label>
+          <label :for="index">{{ deduction }} в {{ index + 1 }} год</label>
         </div>
       </div>
       <button class="modal__add" type="submit">Добавить</button>
